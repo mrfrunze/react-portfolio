@@ -7,19 +7,16 @@ body {
   color: #4e4e4e;
 }
 
-h1,
+/* h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
   color: #1e1e1e;
-}
+} */
 
-a {
-  color: #1e1e1e;
-  transition: all 0.5s ease-in-out;
-}
+
 
 a:hover {
   color: #0078ff;
