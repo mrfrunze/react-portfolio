@@ -1,17 +1,17 @@
 import { motion} from "motion/react";
 import type { ServiceItem } from "../data/services";
-import { baseMotion, slideUp, withDelay } from "../utils/motionPresets";
+import { baseMotion, slideUp } from "../utils/motionPresets";
 
 type Props = ServiceItem & { index: number };
 
 
-const ServiceCard = ({ title, descr, Icon, index = 0  }: Props) => {
+const ServiceCard = ({ title, descr, Icon}: Props) => {
   
   return (
     <motion.li
       {...baseMotion}
       variants={slideUp}
-      transition={{ ...withDelay(index), ease: "easeOut" }}
+      transition={{ ease: "easeOut" }}
       className="group bg-white p-10 px-6 rounded-2xl shadow hover:shadow-lg transition-shadow duration-300 w-full sm:w-[280px] flex-shrink-0"
     >
       <div className="mb-4 flex justify-center">

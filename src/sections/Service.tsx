@@ -14,11 +14,10 @@ const Service = () => {
         </div>
         <div className="flex flex-wrap gap-8 justify-center">
           {SERVICES && (
-            SERVICES.map((service, index) => (
+            SERVICES.map((service) => (
               <ServiceCard 
                 key={service.title}
                 {...service}
-                index={index}
 
               />
             ))

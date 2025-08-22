@@ -1,11 +1,11 @@
 import { motion } from "motion/react";
 import SkillGroup from "../components/SkillGroup"
 import { leftColumn, rightColumn } from "../data/skills"
-import { baseMotion, slideUp, withDelay } from "../utils/motionPresets";
+import { baseMotion, slideUp } from "../utils/motionPresets";
 
 export default function About() {
   return (
-    <section id="about" className="pt-16">
+    <section id="about" className="py-16">
       <div className="container mx-auto px-4">
         <div className="bg-white shadow-[0_1px_1px_rgba(0,0,0,0.06),0_2px_5px_rgba(0,0,0,0.2)] p-6 md:p-12">
           {/* top: photo + text */}

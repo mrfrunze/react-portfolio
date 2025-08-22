@@ -1,7 +1,7 @@
 export const baseMotion = {
   initial: "hidden",
   whileInView: "visible",
-  viewport: { once: false, amount: 0.5 },
+  viewport: { once: false, amount: 0.1 },
 };
 
 export const slideLeft = {
