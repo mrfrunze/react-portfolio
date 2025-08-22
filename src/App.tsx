@@ -1,6 +1,8 @@
 import Footer from "./components/Footer"
 import Header from "./components/Header"
+import About from "./sections/About"
 import Home from "./sections/Home"
+import Service from "./sections/Service"
 
 
 function App() {
@@ -10,6 +12,8 @@ function App() {
     <Header/>
       <main>
         <Home/>
+        <About/>
+        <Service/>
       </main>
     <Footer/>
     </>

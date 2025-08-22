@@ -10,7 +10,7 @@ const Home = () => {
               I am Oleh Stoianov
             </h1>
 
-            <p className="mt-4 text-lg md:text-2xl font-semibold text-white">
+            {/* <p className="mt-4 text-lg md:text-2xl font-semibold text-white"> */}
               <Typewriter
               options={{
                 wrapperClassName:"font-semibold text-white !text-[clamp(2rem,2.5vw+0.5rem,2.5rem)]",
@@ -26,7 +26,7 @@ const Home = () => {
                 loop: true,
               }}
             />
-            </p>
+            {/* </p> */}
           </div>
       </div>
   </section>

@@ -1,6 +1,10 @@
 @import "tailwindcss";
 @import "./styles/style.css";
 
+ul, li{
+    list-style: none;
+}
+
 html,
 body,
 #root{
@@ -31,10 +35,6 @@ main{
 
 .container {
     width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
 }
 
 @keyframes tw-blink {
