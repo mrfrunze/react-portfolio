@@ -30,7 +30,7 @@ const BackToTop = () => {
           exit={{ opacity: 0, scale: 0.85 }}
           transition={{ duration: 0.2, ease: "easeOut" }}
           className="fixed right-4 bottom-4 z-50 w-11 h-11 rounded-full
-                     bg-[#24b67e] text-white shadow-md
+                     bg-[#afcef2] text-white shadow-md
                      flex items-center justify-center
                      hover:brightness-110 active:scale-95
                      focus:outline-none focus:ring-2 focus:ring-white/60"
