@@ -2,7 +2,7 @@ import { motion} from "motion/react";
 import type { ServiceItem } from "../data/services";
 import { baseMotion, slideUp } from "../utils/motionPresets";
 
-type Props = ServiceItem & { index: number };
+type Props = ServiceItem;
 
 
 const ServiceCard = ({ title, descr, Icon}: Props) => {
